@@ -1,0 +1,28 @@
+# when only true,ignore permission control
+devMode: true
+spring:
+  http:
+    encodeing:
+      charset: UTF-8
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  jackson:
+    time-zone: GMT+8
+server:
+  port: 8190
+
+redis:
+  hosts: 192.168.162.235:6379,192.168.162.235:6380,192.168.162.235:6381
+  #192.168.162.235:6382,192.168.162.235:6383,192.168.162.235:6384
+  password: 123456
+  maxTotal: 8
+  maxIdle: 8
+  minIdle: 0
+  maxWaitMillis: 1
+  testOnBorrow: false
+  connectionTimeout: 5000
+  soTimeout: 5000
+  maxAttempts: 5
+  database: 0

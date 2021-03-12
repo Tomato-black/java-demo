@@ -1,0 +1,8 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=com.cz.start.init.RedisApplicationContextInitializer
+
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.cz.start.conf.RedisAutoConfiguration
+
+# Application Listeners
+org.springframework.context.ApplicationListener=com.cz.start.listener.RedisApplicationListener

@@ -1,5 +1,0 @@
-com\cz\start\init\RedisApplicationContextInitializer.class
-com\cz\start\conf\RedisAutoConfiguration.class
-com\cz\start\conf\RedisProperties.class
-com\cz\start\build\RedisBuild.class
-com\cz\start\listener\RedisApplicationListener.class

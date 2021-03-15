@@ -1,9 +1,4 @@
-# when only true,ignore permission control
-devMode: true
 spring:
-  http:
-    encodeing:
-      charset: UTF-8
   servlet:
     multipart:
       max-file-size: 10MB
@@ -12,6 +7,10 @@ spring:
     time-zone: GMT+8
 server:
   port: 8190
+mybatis:
+  configuration:
+    database-id: ${config.imes-db.database-id}
+  mapper-locations: classpath:mapper/**/*.xml
 
 redis:
   hosts:
